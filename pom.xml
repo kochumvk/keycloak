@@ -82,7 +82,7 @@
         <jackson.databind.version>${jackson.version}</jackson.databind.version>
         <jackson.annotations.version>${jackson.databind.version}</jackson.annotations.version>
         <jakarta.mail.version>1.6.5</jakarta.mail.version>
-        <jboss.logging.version>3.4.1.Final</jboss.logging.version>
+        <jboss.logging.version>3.4.2.Final</jboss.logging.version>
         <jboss.logging.tools.version>2.2.1.Final</jboss.logging.tools.version>
         <jboss-jaxrs-api_2.1_spec>2.0.1.Final</jboss-jaxrs-api_2.1_spec>
         <jboss-transaction-api_1.3_spec>2.0.0.Final</jboss-transaction-api_1.3_spec>
