@@ -79,7 +79,7 @@
         <hibernate.c3p0.version>5.3.20.Final</hibernate.c3p0.version>
         <infinispan.version>11.0.4.Final</infinispan.version>
         <jackson.version>2.10.5</jackson.version>
-        <jackson.databind.version>${jackson.version}</jackson.databind.version>
+        <jackson.databind.version>2.13.2</jackson.databind.version>
         <jackson.annotations.version>${jackson.databind.version}</jackson.annotations.version>
         <jakarta.mail.version>1.6.5</jakarta.mail.version>
         <jboss.logging.version>3.4.1.Final</jboss.logging.version>
