@@ -126,7 +126,7 @@
         <google.zxing.version>3.4.0</google.zxing.version>
         <freemarker.version>2.3.29</freemarker.version>
 
-        <jetty9.version>${jetty92.version}</jetty9.version>
+        <jetty9.version>9.4.52.v20230823</jetty9.version>
         <liquibase.version>3.5.5</liquibase.version>
         <mysql.version>8.0.18</mysql.version>
         <osgi.version>4.2.0</osgi.version>
