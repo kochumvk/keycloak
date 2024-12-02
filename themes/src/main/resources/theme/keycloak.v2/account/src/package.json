@@ -14,7 +14,9 @@
     "move-app-css": "shx mkdir -p ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles && shx mv app.css ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles",
     "copy-base-css": "shx mkdir -p ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles && shx cp node_modules/@patternfly/react-core/dist/styles/base.css ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles",
     "copy-fonts": "shx mkdir -p ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles/assets/fonts/overpass-webfont && shx cp node_modules/@patternfly/react-core/dist/styles/assets/fonts/overpass-webfont/overpass*.woff2 ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles/assets/fonts/overpass-webfont",
-    "copy-pficon": "shx mkdir -p ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles/assets/pficon && shx cp node_modules/@patternfly/react-core/dist/styles/assets/pficon/pficon.woff2 ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles/assets/pficon"
+    "copy-pficon": "shx mkdir -p ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles/assets/pficon && shx cp node_modules/@patternfly/react-core/dist/styles/assets/pficon/pficon.woff2 ../../../keycloak/common/resources/web_modules/@patternfly/react-core/dist/styles/assets/pficon",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [],
   "author": "Stan Silvert",
@@ -25,7 +27,8 @@
     "@patternfly/react-styles": "^3.7.14",
     "react": "npm:@pika/react@^16.13.1",
     "react-dom": "npm:@pika/react-dom@^16.13.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -52,5 +55,6 @@
     "snowpack": "^1.7.1",
     "typescript": "^3.8.3"
   },
-  "repository": {}
+  "repository": {},
+  "snyk": true
 }
